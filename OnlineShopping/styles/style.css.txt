@@ -1,0 +1,139 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align:baseline;
+}
+/*HTML5 display-role for older browsers*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	  display: block;
+} 
+
+body  {background:lightblue;}
+
+.main_wrapper {
+	
+	width:auto; //width:1000px;
+        border:3px solid black;
+	height:auto;
+	margin:auto;
+}
+
+.header_wrapper {
+	
+	width:auto;   //width:1000px;
+	height:188px;
+	background:brown;
+}
+
+#navbar  {
+
+        width:auto;  //width:1000px;
+        height:55px;
+        background:blue;
+        color:green;
+}
+#menu  {
+
+       padding:0;
+       line-height:0px;
+       margin-top:5px;
+       float:left;
+}
+  #menu li  {
+
+       list-style:none;
+       display:inline;
+}
+  #menu a  {
+ 
+       color:#FFF;
+       text-decoration:none;
+       font-size:20px;
+       margin:5px;
+       padding:10px;
+}
+  #menu a:hover  {
+
+       
+       color:#333;
+       font-weight:bolder 
+}
+  #form {float:right; padding-right:5px;}
+
+.content_wrapper  {  
+
+        width:auto;    //width:1000px;
+        height:auto;
+        background:blue;    
+ }
+#right_content  {
+
+        width:1106px;   //width:800px;
+        background:lightgreen; 
+        float:right;
+}
+#left_sidebar  {
+
+        width:237px;
+        background:pink; 
+        float:left;
+}
+.footer  {
+        
+        width:auto;
+        height:100px;
+        background:blue;
+        color:#FFF;
+        clear:both;
+}
+#sidebar_title  {
+        text-align:center;
+        background:yellow;
+        font-weight:bold;
+        color:blue;
+        padding:10px;
+        font-size:22px;
+        font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#cats {
+        text-align:center;
+        padding:10px;
+}
+   #cats li  {list-style:none; margin:25.5px;}
+   #cats a  {color:brown; font-size:20px; text-decoration:none; margin:5px;}
+   #cats a:hover {color:blue;  font-weight:bold;}
+
+
+#headline {background:black; color:white; float:right; height:30px; width:1086.5px; padding:10px}
+#headline_content{float:right}
+
+#products_box {
+        width:780px;
+        padding-left:150px; 
+        text-align:center;
+}
+
+#single_product  {float:left; padding:11px;;}
+#single_product img {border:3px solid brown;}
+   
